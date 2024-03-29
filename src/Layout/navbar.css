@@ -17,6 +17,9 @@
   color: var(--text-color-nav);
   display: flex;
   align-items: center;
+  font-size: 36px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .title_center {
@@ -29,7 +32,7 @@
 }
 
 .nav_lists {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
 }
@@ -48,14 +51,82 @@
   background: rgb(23 42 94 / 69%);
 }
 
+.closed_icon {
+  display: none !important;
+}
+
 @media screen and (max-width: 1024px) {
+  .nav_container {
+    position: relative;
+  }
+
   .nav_wrapper {
+    margin-top: 25px;
     flex-direction: column;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .nav_lists {
+    display: none !important;
+  }
+
+  .nav_lists_md_sm {
+    display: flex !important;
+    margin-top: 25px;
+    flex-direction: column !important;
+    width: 100%;
+    background: var(--bg-color);
+    /* animation: Navbar infinite; */
+    transition: var(--transition);
+  }
+
+  /* @keyframes Navbar {
+    top {
+      top: 0;
+      bottom: 100;
+    }
+  } */ /* i will modify*/
+
+  .nav_item {
+    width: 100%;
+    margin: 5px 0 auto;
   }
 
   .menu_icon {
     display: flex !important;
     color: var(--text-color-nav);
     font-size: 40px !important;
+    position: absolute;
+    right: 5%;
+    top: 25px;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+  .closed_icon {
+    display: flex !important;
+    color: var(--text-color-nav);
+    font-size: 35px !important;
+    position: absolute;
+    right: 5%;
+    top: 26px;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .nav_wrapper {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .nav_wrapper {
+    padding: 0 25px;
   }
 }
