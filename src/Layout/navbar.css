@@ -3,6 +3,8 @@
   background: var(--bg-color);
   display: flex;
   width: 100%;
+  position: sticky !important;
+  z-index: 1;
 }
 
 .nav_wrapper {
@@ -49,6 +51,11 @@
 
 .nav_item:hover {
   background: rgb(23 42 94 / 69%);
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--text-color-nav);
 }
 
 .closed_icon {
