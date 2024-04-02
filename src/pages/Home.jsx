@@ -1,13 +1,11 @@
-import Footer from "../Layout/Footer";
-import Navbar from "../Layout/Navbar";
+import About from "../components/About/About";
 import Hero from "../components/Hero/Hero";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
-      <Footer />
+      <About />
     </>
   );
 };
