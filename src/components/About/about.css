@@ -1,5 +1,7 @@
 .about_container {
-  background: rgb(247, 246, 246);
+  background: rgb(234 236 243);
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
   height: auto;
   padding: 50px 0 70px 0;
 }
@@ -55,6 +57,21 @@
   /* letter-spacing: 1px; */
   text-align: justify;
   line-height: 25px;
+}
+
+.about_btn {
+  border: 1px solid var(--bg-color);
+  background: var(--bg-color);
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.about_btn:hover {
+  background: transparent;
+  border: 1px solid var(--bg-color);
+  color: black;
 }
 
 @media screen and (max-width: 1024px) {

@@ -25,6 +25,8 @@ const About = () => {
                 ratione, minus non quibusdam, sequi architecto blanditiis vitae
                 est officiis voluptates optio !
               </p>
+              <button className="about_btn">See More</button>
+              {/* see more button click and see about components and know more fact it will add  */}
             </div>
           </div>
         </div>
