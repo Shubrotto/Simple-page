@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Navbar from "./Layout/Navbar";
 import Footer from "./Layout/Footer";
 import Blog from "./components/Blog/Blog";
+import Portfolios from "./components/Portfolio/Portfolios";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/portfolio" element={<Portfolios />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/*" element={<NotFound />} />\
       </Routes>
       <Footer />
