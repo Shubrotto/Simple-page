@@ -8,6 +8,7 @@ import Footer from "./Layout/Footer";
 import Blog from "./components/Blog/Blog";
 import Portfolios from "./components/Portfolio/Portfolios";
 import Gallery from "./components/Gallery/Gallery";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/portfolio" element={<Portfolios />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<NotFound />} />\
       </Routes>
       <Footer />
