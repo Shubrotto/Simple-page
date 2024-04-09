@@ -1,26 +1,11 @@
-import { useState } from "react";
 import "./heroItem.css";
+import { Paper, Button } from "@mui/material";
 
 const HeroItem = ({ smile }) => {
-  const [slide, setsSlide] = useState(1);
-  const handleSlideClick = () => {
-    const infoWidth = document.querySelectorAll(".hero_item");
-    console.log(slide);
-    if (infoWidth.Index > slide) {
-      for (let i = 1; i < infoWidth.length; i++) {
-        const infoWidth = infoWidth + 1;
-        setsSlide(infoWidth[i]);
-        console.log(infoWidth[i]);
-      }
-
-      console.log("object");
-    } else {
-      setsSlide(slide);
-    }
-  };
+  console.log(smile);
   return (
     <>
-      <div className="hero_item">
+      <Paper className="hero_item" style={{ height: "500px" }}>
         <div className="info">
           <h1>{smile.title}</h1>
           <p>{smile.desc}</p>
@@ -28,10 +13,8 @@ const HeroItem = ({ smile }) => {
         <div className="info_img">
           <img src={smile.Image} alt="" />
         </div>
-      </div>
-      <button className="info_btn" onClick={handleSlideClick}>
-        Next Slide
-      </button>
+      </Paper>
+      <Button className="info_btn">Next Slide</Button>
     </>
   );
 };

@@ -35,13 +35,13 @@
   transition: var(--transition);
   color: white;
   border: 2px solid var(--bg-color);
-  transform: rotate3d(1, 1, 1, 45deg);
 }
 
 .blog_item:hover {
   background: transparent;
   color: black;
-  transform: rotate3d(0, 0, 0, 0deg);
+  transform: scale(0.9);
+  border: 2px solid red;
 }
 
 .blog_item img {
