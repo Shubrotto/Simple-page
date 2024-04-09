@@ -3,8 +3,9 @@
   background: var(--bg-color);
   display: flex;
   width: 100%;
-  position: sticky !important;
-  z-index: 1;
+  /* position: sticky !important; */
+  z-index: 11;
+  position: fixed;
 }
 
 .nav_wrapper {

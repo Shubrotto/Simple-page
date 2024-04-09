@@ -3,7 +3,7 @@ import { Portfolio } from "./Portfolio";
 
 const Portfolios = () => {
   return (
-    <div className="portfolio_container">
+    <div className="portfolio_container" style={{ paddingTop: "90px" }}>
       <h1>Portfolio</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, nihil?

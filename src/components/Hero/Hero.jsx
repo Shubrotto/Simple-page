@@ -5,7 +5,7 @@ import Carousel from "react-material-ui-carousel";
 
 const Hero = () => {
   return (
-    <div className="hero_container">
+    <div className="hero_container" style={{ paddingTop: "60px" }}>
       <Carousel
         className="hero_wrapper"
         next={(next, active) =>

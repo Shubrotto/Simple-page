@@ -12,7 +12,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="contact_form">
+    <div className="contact_form" style={{ paddingTop: "90px" }}>
       <h1>Contact me</h1>
       <p className="form_info_p">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nam.

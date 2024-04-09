@@ -12,7 +12,7 @@ const About = () => {
   };
   return (
     <>
-      <div className="about_container">
+      <div className="about_container" style={{ paddingTop: "90px" }}>
         <div className="about_wrapper">
           <h1>About Us</h1>
           <p>Our Objective is always Happiness</p>

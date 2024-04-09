@@ -5,7 +5,7 @@ import { gallery } from "../../data";
 
 export default function StandardImageList() {
   return (
-    <div className="gallery_container">
+    <div className="gallery_container" style={{ paddingTop: "90px" }}>
       <h1>Gallery</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, animi.
