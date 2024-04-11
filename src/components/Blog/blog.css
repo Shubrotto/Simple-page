@@ -87,6 +87,8 @@
   .blog_desc {
     font-size: 18px;
     margin: 0 0 15px 0;
+    width: 80%;
+    text-align: center;
   }
 }
 
@@ -137,5 +139,6 @@
 
   .blog_desc {
     font-size: 14px;
+    width: 90%;
   }
 }

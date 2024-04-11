@@ -4,7 +4,10 @@ const Blog = () => {
   return (
     <div className="blog_container" style={{ paddingTop: "90px" }}>
       <h1 className="blog_title">Blogs</h1>
-      <p className="blog_desc">Here is some blogs</p>
+      <p className="blog_desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+        explicabo, iusto vel
+      </p>
       <div className="blog_wrapper">
         <div className="blog_item">
           <img

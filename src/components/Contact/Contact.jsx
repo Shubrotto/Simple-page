@@ -1,12 +1,11 @@
 import "./contact.css";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import { FaFacebook, FaVoicemail } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import {
   DialerSipOutlined,
   EmailOutlined,
   Instagram,
-  LinkedIn,
   Twitter,
 } from "@material-ui/icons";
 
@@ -39,7 +38,7 @@ const Contact = () => {
             <div className="social_icon">
               <FaFacebook className="social_btn" />
               <Twitter className="social_btn" />
-              <LinkedIn className="social_btn" />
+              <FaLinkedinIn className="social_btn" />
               <Instagram className="social_btn" />
             </div>
           </div>

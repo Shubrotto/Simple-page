@@ -15,7 +15,10 @@ const About = () => {
       <div className="about_container" style={{ paddingTop: "90px" }}>
         <div className="about_wrapper">
           <h1>About Us</h1>
-          <p>Our Objective is always Happiness</p>
+          <p>
+            If you have a lot of stress in your life, find ways to reduce it,
+            such as learning a few time-management techniques
+          </p>
           <div className="about_info">
             <div className="info_top">
               <img

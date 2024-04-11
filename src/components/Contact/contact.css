@@ -87,12 +87,14 @@
   background: var(--bg-color);
   color: white;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .social_btn:hover {
   background: transparent;
   border: 1px solid var(--bg-color);
   color: black;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1024px) {
