@@ -2,7 +2,7 @@ import "./heroItem.css";
 import { Paper, Button } from "@mui/material";
 
 const HeroItem = ({ smile }) => {
-  console.log(smile);
+  // console.log(smile);
   return (
     <>
       <Paper className="hero_item" style={{ height: "500px" }}>

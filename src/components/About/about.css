@@ -90,6 +90,10 @@
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
   }
+
+  .about_wrapper p {
+    margin: 0 0 25px 0 !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -99,6 +103,10 @@
 
   .about_wrapper h1 {
     font-size: 30px;
+  }
+
+  .about_wrapper p {
+    font-size: 16px;
   }
 }
 
@@ -114,8 +122,12 @@
   }
 
   .about_wrapper p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 0 50px 0;
+  }
+
+  .about_info {
+    width: 100%;
   }
 
   .info_top h4 {

@@ -17,7 +17,7 @@ export default function StandardImageList() {
               key={item.img}
               style={{
                 width: "100%",
-                height: "150px",
+                height: "auto",
                 objectFit: "cover",
                 gap: "10px",
               }}

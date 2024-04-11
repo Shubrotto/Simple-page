@@ -18,6 +18,7 @@
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .portfolio_wrapper {
@@ -33,5 +34,41 @@
   .portfolio_wrapper {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .portfolio_container h1 {
+    font-size: 35px;
+  }
+
+  .portfolio_container p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .portfolio_container {
+    padding: 50px 50px 70px 50px;
+  }
+
+  .portfolio_container h1 {
+    font-size: 30px;
+  }
+
+  .portfolio_container p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio_container {
+    padding: 50px 25px 70px 25px;
+  }
+
+  .portfolio_container h1 {
+    font-size: 25px;
+  }
+
+  .portfolio_container p {
+    font-size: 14px;
   }
 }

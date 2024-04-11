@@ -13,10 +13,30 @@
   .hero_wrapper {
     padding: 20px 50px 0 50px;
   }
+
+  .info p {
+    text-align: center;
+  }
+
+  .blog_title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog_title {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 590px) {
   .hero_wrapper {
     padding: 20px 25px 0 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog_title {
+    font-size: 25px;
   }
 }
