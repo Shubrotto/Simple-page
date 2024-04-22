@@ -12,7 +12,7 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`/simple-page`}>
       <Navbar />
       <Routes>
         <Route index path="/" element={<Home />} />
